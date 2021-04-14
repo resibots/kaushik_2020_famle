@@ -39,7 +39,7 @@ export PYTHONPATH=${PWD}:$PYTHONPATH
 
 ## One simple example
 
-Suppose we are given 3 data points, and we have to fit a neural network to these data points. There can be infinite possibilities of functions that can be fitted by the neural network given those 3 data points. However, suppose we know some prior information about the type of the underlying function. In that case, we can pre-train (i.e. meta-train) the neural network so that the network can be fitted to match the underlying function very closely with only a few data points.
+Suppose we are given 3 data points, and we have to fit a neural network to these data points. There can be infinite possibilities of functions that can be fitted by the neural network given those 3 data points. Now, suppose we know some prior information about the type of the underlying function. In that case, we can pre-train (i.e. meta-train) the neural network so that the network can be fitted to match the underlying function very closely with only a few data points.
 
 Let the type of function that we are trying to fit are sinusoids with random phases and amplitudes. Using FAMLE, we meta-train a situation (or task) conditioned neural network, where each task is a randomly sampled sinusoid.
 
